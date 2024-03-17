@@ -3015,4 +3015,32 @@ input[type=date]::-webkit-datetime-edit {
   .subDes {
     font-size: 1.2em;
   }
+}
+.infoMgs {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: -100%;
+  z-index: 2;
+  animation: mgs 500ms ease forwards;
+}
+
+@keyframes mgs {
+  100% {
+    bottom: 0;
+  }
+}
+.msCont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  background-color: #20535a;
+  color: #fff;
+  font-weight: 600;
+  height: 40px;
+  border-radius: 10px 10px 0 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.251);
 }/*# sourceMappingURL=style.css.map */
